@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from flask import Flask, render_template, request, send_file, redirect
 import sqlite3
 import pandas as pd
@@ -518,7 +518,7 @@ from reportlab.pdfgen import canvas
 import matplotlib.pyplot as plt
 import os
 
-app = Flask(__name__)
+
 
 
 # ---------------- DATABASE ----------------
