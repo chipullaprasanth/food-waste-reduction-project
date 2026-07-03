@@ -509,7 +509,7 @@ if __name__ == "__main__":
         debug=True,
         host="127.0.0.1",
         port=5000
-=======
+    )
 from flask import Flask, render_template, request, send_file, redirect
 import sqlite3
 import pandas as pd
@@ -1013,9 +1013,9 @@ def page_not_found(error):
 # ---------------- RUN APPLICATION ----------------
 
 if __name__ == "__main__":
-
     create_tables()
-
-    if name == "main":
-
-app.run(debug=True)
+    app.run(
+        debug=True,
+        host="127.0.0.1",
+        port=5000
+    )
