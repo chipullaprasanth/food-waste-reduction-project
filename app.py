@@ -1016,9 +1016,6 @@ if __name__ == "__main__":
 
     create_tables()
 
-    app.run(
-        debug=True,
-        host="127.0.0.1",
-        port=5000
->>>>>>> a83d3ec77f5db0e2315dd4870fbf59a1e381cd4b
-    )
+    if name == "main":
+
+app.run(debug=True)
